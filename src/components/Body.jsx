@@ -1,10 +1,10 @@
 import React from "react"
 import '../styles/body.css'
 function Body(){
-    let red = {color:"blue"}
+    let style = {color:"blue", fontSize:"40px"}
     return(
     <div>
-        <p style={red} >Este es el body</p>
+        <p style={style} >Este es el body</p>
     </div>
     )
 }
